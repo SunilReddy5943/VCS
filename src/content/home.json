@@ -1,0 +1,379 @@
+{
+  "hero": {
+    "badge": "VCS Connected Intelligence",
+    "title": [
+      "Transforming Enterprise Systems",
+      "into Connected Intelligence"
+    ],
+    "subtitle": "We architect and deliver end-to-end Salesforce ecosystems that unify customer data, automate critical workflows, and drive compound revenue growth.",
+    "cta": {
+      "primary": {
+        "label": "Schedule Consultation",
+        "href": "#contact"
+      },
+      "secondary": {
+        "label": "Explore Platform",
+        "href": "#platform"
+      }
+    }
+  },
+  "trustLogos": [
+    "Fortune 500 Financial",
+    "Global Retail Leaders",
+    "Government Agencies",
+    "Telecom Giants",
+    "Healthcare Enterprises",
+    "Manufacturing Innovators"
+  ],
+  "problems": [
+    {
+      "id": "disconnected",
+      "title": "Fragmented Customer Intelligence",
+      "description": "Critical customer data trapped in disconnected silos — CRM, ERP, marketing platforms, and legacy databases — making it impossible to deliver a unified experience.",
+      "solution": "Unified Customer 360°",
+      "icon": "disconnected"
+    },
+    {
+      "id": "slow",
+      "title": "Stalled Digital Transformation",
+      "description": "Digital initiatives that drag on for years, consuming budget and executive confidence. Without a proven methodology, projects become expensive liabilities.",
+      "solution": "Accelerated Cloud Adoption",
+      "icon": "slow"
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy System Burden",
+      "description": "Aging on-premise systems consuming 70% of IT budgets on maintenance alone, leaving zero room for innovation. Every delay widens the competitive gap.",
+      "solution": "Legacy Modernisation",
+      "icon": "legacy"
+    },
+    {
+      "id": "scaling",
+      "title": "Inability to Scale Operations",
+      "description": "Manual processes and rigid architectures that buckle under growth. When your business expands, technology should accelerate momentum, not throttle it.",
+      "solution": "Elastic Enterprise Architecture",
+      "icon": "scaling"
+    }
+  ],
+  "platformNodes": [
+    {
+      "id": "ai",
+      "label": "AI & Agentforce",
+      "description": "Generative agents and predictive models driving autonomous operations.",
+      "category": "ai",
+      "x": 50,
+      "y": 15
+    },
+    {
+      "id": "data",
+      "label": "Data Cloud",
+      "description": "Real-time engine unifying transactional and historical customer profiles.",
+      "category": "core",
+      "x": 50,
+      "y": 50
+    },
+    {
+      "id": "analytics",
+      "label": "Analytics & Tableau",
+      "description": "Deep business intelligence and predictive dashboards.",
+      "category": "analytics",
+      "x": 80,
+      "y": 50
+    },
+    {
+      "id": "crm",
+      "label": "CRM Solutions",
+      "description": "Core Customer 360 apps spanning Sales, Service, and Commerce.",
+      "category": "crm",
+      "x": 50,
+      "y": 85
+    },
+    {
+      "id": "integration",
+      "label": "Integration & MuleSoft",
+      "description": "Unified API gateway connecting all legacy systems and SaaS apps.",
+      "category": "integration",
+      "x": 20,
+      "y": 50
+    }
+  ],
+  "processSteps": [
+    {
+      "id": "discovery",
+      "title": "Discovery & Assessment",
+      "description": "Deep-dive into your business processes, technology landscape, and strategic objectives to build a comprehensive current-state audit.",
+      "phase": "Phase 01"
+    },
+    {
+      "id": "roadmap",
+      "title": "Strategy & Roadmap",
+      "description": "Craft a phased transformation roadmap with clear milestones, resource plans, and ROI projections aligned to business priority.",
+      "phase": "Phase 02"
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture & Design",
+      "description": "Design composable, future-proof solution architectures leveraging Salesforce best practices, integration patterns, and security frameworks.",
+      "phase": "Phase 03"
+    },
+    {
+      "id": "development",
+      "title": "Agile Development",
+      "description": "Build iteratively in two-week sprints with continuous stakeholder feedback, ensuring every feature delivers tangible business value.",
+      "phase": "Phase 04"
+    },
+    {
+      "id": "qa",
+      "title": "Testing & Quality Assurance",
+      "description": "Rigorous automated and manual testing across unit, integration, UAT, and performance layers to ensure enterprise-grade reliability.",
+      "phase": "Phase 05"
+    },
+    {
+      "id": "deployment",
+      "title": "Deployment & Training",
+      "description": "Seamless production release with comprehensive change management, role-based training, and hypercare support to drive adoption.",
+      "phase": "Phase 06"
+    },
+    {
+      "id": "optimization",
+      "title": "Ongoing Optimisation",
+      "description": "Continuous platform monitoring, quarterly health checks, and proactive enhancements to ensure your investment compounds value.",
+      "phase": "Phase 07"
+    }
+  ],
+  "stats": [
+    {
+      "value": 500,
+      "suffix": "+",
+      "label": "Projects Delivered"
+    },
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Enterprise Clients"
+    },
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Countries Served"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Certified Experts"
+    }
+  ],
+  "technologyPartners": [
+    "Salesforce",
+    "MuleSoft",
+    "Tableau",
+    "Slack",
+    "AWS",
+    "Google Cloud"
+  ],
+  "ourCloudsQuote": "From business prototyping to enterprise application development and from mobile application development to 24/7 support & customization: VCS is at the heart of the complete software spectrum of services on Salesforce CRM.",
+  "staffAugmentation": {
+    "title": "Elite Staff Augmentation",
+    "subtitle": "Get instant access to certified, pre-vetted Salesforce and Vlocity technical experts to accelerate your project velocity.",
+    "quickFacts": [
+      {
+        "title": "Niche Resourcing Competence",
+        "description": "Demonstrated competence in headhunting and resourcing premium technology and architecture skills."
+      },
+      {
+        "title": "Turnkey Hiring Projects",
+        "description": "Own and deliver entire engineering teams for turnkey software development projects."
+      },
+      {
+        "title": "Proprietary Search Software",
+        "description": "A proprietary AI database search platform that reduces recruiter turnaround time by 60%."
+      },
+      {
+        "title": "Executive to Entry Levels",
+        "description": "One-stop recruitment solution ranging from enterprise program directors to developer trainees."
+      }
+    ],
+    "hiringApproach": [
+      {
+        "step": "01",
+        "title": "Profile Sourcing & Scoring",
+        "badge": "Review",
+        "description": "Shortlist sourced profiles based on strict client criteria. Our recruiters score applicants based on certifications, experience, and past project delivery.",
+        "details": [
+          "Recruiter scoring checklist",
+          "Verification of active Salesforce credentials",
+          "Initial availability alignment"
+        ]
+      },
+      {
+        "step": "02",
+        "title": "Initial Screen Interview",
+        "badge": "Screen",
+        "description": "Conduct deep screening calls to verify basic qualifications, remote setup capability, communication skills, and professional availability.",
+        "details": [
+          "Interactive voice calls",
+          "Core competence validation",
+          "Culture fit assessment"
+        ]
+      },
+      {
+        "step": "03",
+        "title": "Standard Skill Testing",
+        "badge": "Test",
+        "description": "Administer structured, timed tests evaluating language speaking capabilities and core software programming skills.",
+        "details": [
+          "Coding sandbox exercises",
+          "English language proficiency",
+          "Problem-solving speed tests"
+        ]
+      },
+      {
+        "step": "04",
+        "title": "Technical Vetting Panel",
+        "badge": "Verify",
+        "description": "F2F or video panel technical interview where our in-house senior Salesforce architects and technology leaders review domain expertise.",
+        "details": [
+          "Architecture whiteboarding",
+          "Scenario-based problem solving",
+          "Domain-specific depth test (e.g. OmniStudio/LWC)"
+        ]
+      },
+      {
+        "step": "05",
+        "title": "Client Review & Align",
+        "badge": "Select",
+        "description": "Share fully vetted profiles, screen results, and technical scores with the client. Coordinate client video interviews for final alignment.",
+        "details": [
+          "Consolidated scoring profiles",
+          "Seamless scheduling management",
+          "Pre-meeting briefing for candidates"
+        ]
+      },
+      {
+        "step": "06",
+        "title": "Background Verification",
+        "badge": "Deploy",
+        "description": "Perform background verification of references, past employment, and credentials in partnership with specialized 3rd-party vendors.",
+        "details": [
+          "Employment history verification",
+          "Criminal and credential checks",
+          "Expedited onboarding processing"
+        ]
+      }
+    ]
+  },
+  "implementationLifecycle": {
+    "title": "Implementation & Delivery Roadmaps",
+    "subtitle": "Discover our proven, structured methodologies that guarantee quality, compliance, and rapid time-to-market for enterprise platforms.",
+    "salesforce": [
+      {
+        "phase": "Plan & Prepare",
+        "step": "01",
+        "description": "Align project objectives with business goals, establish team governance, and outline project scopes.",
+        "details": [
+          "Define project and performance goals",
+          "Prioritize business milestones",
+          "Finalize release roadmap",
+          "Assemble delivery and steering teams"
+        ]
+      },
+      {
+        "phase": "Design & Map",
+        "step": "02",
+        "description": "Conduct business process workshops to capture detailed system requirements and design solution blueprints.",
+        "details": [
+          "Record functional and system requirements",
+          "Define target business processes",
+          "Apply industry best-practice architectures",
+          "Map legacy data migration pipelines"
+        ]
+      },
+      {
+        "phase": "Develop & Deploy",
+        "step": "03",
+        "description": "Iterative system building, custom coding, automated testing, data loads, and training.",
+        "details": [
+          "Utilize pre-built accelerators for speed",
+          "Configure standard objects and custom LWC",
+          "Write Apex and automate processes",
+          "Perform enterprise data loads",
+          "Ensure quality and run user training"
+        ]
+      },
+      {
+        "phase": "Manage & Enhance",
+        "step": "04",
+        "description": "Continuous platform evolution, support services, and routine release updates.",
+        "details": [
+          "Provide 24/7 support & SLAs",
+          "Manage system data quality & integrity",
+          "Deploy custom feature enhancements",
+          "Adhere to official Salesforce releases",
+          "Deliver continuous consulting advisory"
+        ]
+      }
+    ],
+    "vlocity": [
+      {
+        "phase": "Identify & Prioritize",
+        "step": "01",
+        "description": "Audit business requirements and prioritize vertical Vlocity capabilities.",
+        "details": [
+          "Identify specific Vlocity platform features",
+          "Determine detailed user story scope",
+          "Document target Vlocity object blueprints"
+        ]
+      },
+      {
+        "phase": "Assign & Monitor",
+        "step": "02",
+        "description": "Allocate certified OmniStudio and Vlocity developers, and establish progress tracking metrics.",
+        "details": [
+          "Assign qualified OmniStudio developers",
+          "Initialize Agile sprint boards",
+          "Monitor development progress metrics"
+        ]
+      },
+      {
+        "phase": "Design & Develop",
+        "step": "03",
+        "description": "Build high-speed guided user journeys using OmniStudio OmniScripts, FlexCards, and Integration Procedures.",
+        "details": [
+          "Apply OmniStudio design best practices",
+          "Build intuitive, guided OmniScripts",
+          "Implement high-performance Integration Procedures"
+        ]
+      },
+      {
+        "phase": "Validate & Approve",
+        "step": "04",
+        "description": "Thorough system verification, defect management, and user sign-off.",
+        "details": [
+          "Run comprehensive OmniStudio test cases",
+          "Log and resolve functional bugs",
+          "Acquire business stakeholder sign-off"
+        ]
+      },
+      {
+        "phase": "Train & Deploy",
+        "step": "05",
+        "description": "Run user adoption training and deploy modular components securely using Salesforce DX or Copado.",
+        "details": [
+          "Conduct interactive user training",
+          "Schedule secure production deployments",
+          "Communicate release updates to business users"
+        ]
+      },
+      {
+        "phase": "Track & Report",
+        "step": "06",
+        "description": "Establish continuous system health checking, optimization, and post-go-live managed support.",
+        "details": [
+          "Review periodic platform health reports",
+          "Analyze business value and track user progress",
+          "Deliver on-demand consulting optimization"
+        ]
+      }
+    ]
+  }
+}
