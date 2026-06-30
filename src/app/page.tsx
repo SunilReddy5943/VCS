@@ -6,12 +6,9 @@ import TrustBar from '@/components/sections/home/TrustBar';
 
 // Dynamic imports for performance and code splitting
 const ProblemExperience = dynamic(() => import('@/experience/ProblemExperience'), { ssr: true });
-const PlatformExperience = dynamic(() => import('@/experience/PlatformExperience'), { ssr: true });
-const ExplorerExperience = dynamic(() => import('@/experience/ExplorerExperience'), { ssr: true });
-const ImplementationLifecycle = dynamic(() => import('@/components/sections/home/ImplementationLifecycle'), { ssr: true });
+const SalesforceCapabilities = dynamic(() => import('@/components/sections/home/SalesforceCapabilities'), { ssr: true });
+const CloudExplorer = dynamic(() => import('@/components/sections/home/CloudExplorer'), { ssr: true });
 const StaffAugmentationProcess = dynamic(() => import('@/components/sections/home/StaffAugmentationProcess'), { ssr: true });
-const EcosystemExperience = dynamic(() => import('@/experience/EcosystemExperience'), { ssr: true });
-const AIConsultant = dynamic(() => import('@/features/ai-consultant/AIConsultant'), { ssr: true });
 
 export default function HomePage() {
   return (
@@ -25,23 +22,15 @@ export default function HomePage() {
       {/* Chapter 03: Business Problems - Pain points */}
       <ProblemExperience />
 
-      {/* Chapter 04: Connected Intelligence Platform */}
-      <PlatformExperience />
+      {/* Chapter 04: Core Salesforce Capabilities (Image-led) */}
+      <SalesforceCapabilities />
 
-      {/* Chapter 05: Architecture Explorer */}
-      <ExplorerExperience />
+      {/* Chapter 05: Salesforce Cloud Explorer */}
+      <CloudExplorer />
 
-      {/* Chapter 06: Implementation & Delivery Lifecycles */}
-      <ImplementationLifecycle />
-
-      {/* Chapter 07: Staff Augmentation & Hiring Pipeline */}
+      {/* Chapter 06: Staff Augmentation (Lightweight) */}
       <StaffAugmentationProcess />
 
-      {/* Chapter 08: Industry Ecosystem */}
-      <EcosystemExperience />
-
-      {/* Chapter 09: AI Consultation Form */}
-      <AIConsultant />
     </>
   );
 }

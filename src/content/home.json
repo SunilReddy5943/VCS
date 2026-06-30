@@ -1,20 +1,11 @@
 {
   "hero": {
-    "badge": "VCS Connected Intelligence",
-    "title": [
-      "Transforming Enterprise Systems",
-      "into Connected Intelligence"
-    ],
-    "subtitle": "We architect and deliver end-to-end Salesforce ecosystems that unify customer data, automate critical workflows, and drive compound revenue growth.",
+    "badge": "Salesforce Summit Partner",
+    "title": ["AI-Driven", "Salesforce Excellence", "For Global Enterprises"],
+    "subtitle": "We architect, deploy, and scale high-performance Salesforce solutions, MuleSoft integrations, and Agentforce AI agents. We drive 2X ROI with speed, security, and scale.",
     "cta": {
-      "primary": {
-        "label": "Schedule Consultation",
-        "href": "#contact"
-      },
-      "secondary": {
-        "label": "Explore Platform",
-        "href": "#platform"
-      }
+      "primary": { "label": "Book Free Consultation", "href": "/contact" },
+      "secondary": { "label": "Explore Solutions", "href": "/solutions" }
     }
   },
   "trustLogos": [
@@ -28,139 +19,97 @@
   "problems": [
     {
       "id": "disconnected",
+      "icon": "disconnected",
       "title": "Fragmented Customer Intelligence",
-      "description": "Critical customer data trapped in disconnected silos — CRM, ERP, marketing platforms, and legacy databases — making it impossible to deliver a unified experience.",
-      "solution": "Unified Customer 360°",
-      "icon": "disconnected"
+      "description": "Critical customer data trapped in disconnected silos — CRM, ERP, marketing platforms, and legacy databases — making it impossible to deliver a unified Customer 360 experience.",
+      "solution": "Unified Customer 360°"
     },
     {
       "id": "slow",
-      "title": "Stalled Digital Transformation",
-      "description": "Digital initiatives that drag on for years, consuming budget and executive confidence. Without a proven methodology, projects become expensive liabilities.",
-      "solution": "Accelerated Cloud Adoption",
-      "icon": "slow"
+      "icon": "slow",
+      "title": "Slow AI & Automation Adoption",
+      "description": "Struggling to integrate conversational AI agents and workflow automation. Without expert guidance, deploying AI becomes a costly and slow-moving liability.",
+      "solution": "Agentforce AI Agent Integration"
     },
     {
       "id": "legacy",
+      "icon": "legacy",
       "title": "Legacy System Burden",
-      "description": "Aging on-premise systems consuming 70% of IT budgets on maintenance alone, leaving zero room for innovation. Every delay widens the competitive gap.",
-      "solution": "Legacy Modernisation",
-      "icon": "legacy"
+      "description": "Aging on-premise systems consuming 70% of IT budgets on maintenance alone, blocking agility and slowing down cloud migration.",
+      "solution": "MuleSoft Integration & Modernization"
     },
     {
       "id": "scaling",
-      "title": "Inability to Scale Operations",
-      "description": "Manual processes and rigid architectures that buckle under growth. When your business expands, technology should accelerate momentum, not throttle it.",
-      "solution": "Elastic Enterprise Architecture",
-      "icon": "scaling"
+      "icon": "scaling",
+      "title": "Talent Sourcing Bottlenecks",
+      "description": "Difficulty hiring and scaling certified Salesforce developers, architects, and administrators to meet rapid project delivery timelines.",
+      "solution": "Elite Staff Augmentation"
     }
   ],
-  "platformNodes": [
+  "solutionsOverview": [
     {
-      "id": "ai",
-      "label": "AI & Agentforce",
-      "description": "Generative agents and predictive models driving autonomous operations.",
-      "category": "ai",
-      "x": 50,
-      "y": 15
+      "icon": "unify",
+      "title": "Unified Customer 360°",
+      "description": "Consolidate every customer touchpoint into a single source of truth across Sales, Service, Marketing, and Commerce Clouds.",
+      "link": "/solutions"
     },
     {
-      "id": "data",
-      "label": "Data Cloud",
-      "description": "Real-time engine unifying transactional and historical customer profiles.",
-      "category": "core",
-      "x": 50,
-      "y": 50
+      "icon": "accelerate",
+      "title": "Agentforce AI Deployment",
+      "description": "Build and deploy autonomous AI calling agents, chatbots, and campaign managers inside Salesforce in hours, not months.",
+      "link": "/solutions"
     },
     {
-      "id": "analytics",
-      "label": "Analytics & Tableau",
-      "description": "Deep business intelligence and predictive dashboards.",
-      "category": "analytics",
-      "x": 80,
-      "y": 50
+      "icon": "modernise",
+      "title": "MuleSoft Integration & Migration",
+      "description": "Seamlessly connect legacy databases and ERPs with Salesforce using secure, high-speed API-led architectures.",
+      "link": "/services"
     },
     {
-      "id": "crm",
-      "label": "CRM Solutions",
-      "description": "Core Customer 360 apps spanning Sales, Service, and Commerce.",
-      "category": "crm",
-      "x": 50,
-      "y": 85
-    },
-    {
-      "id": "integration",
-      "label": "Integration & MuleSoft",
-      "description": "Unified API gateway connecting all legacy systems and SaaS apps.",
-      "category": "integration",
-      "x": 20,
-      "y": 50
+      "icon": "scale",
+      "title": "Summit Partner Advisory",
+      "description": "Get expert consulting, system audits, and custom LWC/Apex development tailored to your specific industry compliance.",
+      "link": "/services"
     }
+  ],
+  "statsContent": [
+    { "value": 14, "suffix": "+", "label": "Years in Industry" },
+    { "value": 3, "suffix": "k+", "label": "Salesforce Projects" },
+    { "value": 30, "suffix": "+", "label": "Industries Served" },
+    { "value": 100, "suffix": "+", "label": "Certified Experts" },
+    { "value": 5, "suffix": "★", "label": "AppExchange Rating" },
+    { "value": 24, "suffix": "/7", "label": "Support Availability" },
+    { "value": 2, "suffix": "h", "label": "Average Response Time" },
+    { "value": 99.5, "suffix": "%", "label": "Project Success Rate" }
   ],
   "processSteps": [
     {
-      "id": "discovery",
       "title": "Discovery & Assessment",
-      "description": "Deep-dive into your business processes, technology landscape, and strategic objectives to build a comprehensive current-state audit.",
-      "phase": "Phase 01"
+      "description": "Deep-dive into your business processes, technology landscape, and strategic objectives to build a comprehensive CRM roadmap."
     },
     {
-      "id": "roadmap",
-      "title": "Strategy & Roadmap",
-      "description": "Craft a phased transformation roadmap with clear milestones, resource plans, and ROI projections aligned to business priority.",
-      "phase": "Phase 02"
+      "title": "Strategy & CRM Roadmapping",
+      "description": "Craft a phased transformation plan with clear milestones, ROI projections, and architecture recommendations."
     },
     {
-      "id": "architecture",
-      "title": "Architecture & Design",
-      "description": "Design composable, future-proof solution architectures leveraging Salesforce best practices, integration patterns, and security frameworks.",
-      "phase": "Phase 03"
+      "title": "Architecture & Custom Design",
+      "description": "Design scalable, future-proof solution architectures leveraging Salesforce best practices and security frameworks."
     },
     {
-      "id": "development",
-      "title": "Agile Development",
-      "description": "Build iteratively in two-week sprints with continuous stakeholder feedback, ensuring every feature delivers tangible business value.",
-      "phase": "Phase 04"
+      "title": "Agile Development & Coding",
+      "description": "Build custom LWC components, Apex classes, and flow automations in iterative two-week sprints with constant feedback."
     },
     {
-      "id": "qa",
-      "title": "Testing & Quality Assurance",
-      "description": "Rigorous automated and manual testing across unit, integration, UAT, and performance layers to ensure enterprise-grade reliability.",
-      "phase": "Phase 05"
+      "title": "Rigorous QA & Testing",
+      "description": "Perform comprehensive unit, integration, user acceptance (UAT), and performance testing to ensure enterprise reliability."
     },
     {
-      "id": "deployment",
       "title": "Deployment & Training",
-      "description": "Seamless production release with comprehensive change management, role-based training, and hypercare support to drive adoption.",
-      "phase": "Phase 06"
+      "description": "Execute seamless production release with change management, role-based user training, and post-launch support."
     },
     {
-      "id": "optimization",
-      "title": "Ongoing Optimisation",
-      "description": "Continuous platform monitoring, quarterly health checks, and proactive enhancements to ensure your investment compounds value.",
-      "phase": "Phase 07"
-    }
-  ],
-  "stats": [
-    {
-      "value": 500,
-      "suffix": "+",
-      "label": "Projects Delivered"
-    },
-    {
-      "value": 200,
-      "suffix": "+",
-      "label": "Enterprise Clients"
-    },
-    {
-      "value": 15,
-      "suffix": "+",
-      "label": "Countries Served"
-    },
-    {
-      "value": 100,
-      "suffix": "+",
-      "label": "Certified Experts"
+      "title": "Managed Services & Optimisation",
+      "description": "Provide ongoing platform monitoring, security updates, and feature enhancements to ensure continuous value compounding."
     }
   ],
   "technologyPartners": [
@@ -169,99 +118,17 @@
     "Tableau",
     "Slack",
     "AWS",
-    "Google Cloud"
+    "Azure",
+    "Google Cloud",
+    "Heroku"
   ],
-  "ourCloudsQuote": "From business prototyping to enterprise application development and from mobile application development to 24/7 support & customization: VCS is at the heart of the complete software spectrum of services on Salesforce CRM.",
-  "staffAugmentation": {
-    "title": "Elite Staff Augmentation",
-    "subtitle": "Get instant access to certified, pre-vetted Salesforce and Vlocity technical experts to accelerate your project velocity.",
-    "quickFacts": [
-      {
-        "title": "Niche Resourcing Competence",
-        "description": "Demonstrated competence in headhunting and resourcing premium technology and architecture skills."
-      },
-      {
-        "title": "Turnkey Hiring Projects",
-        "description": "Own and deliver entire engineering teams for turnkey software development projects."
-      },
-      {
-        "title": "Proprietary Search Software",
-        "description": "A proprietary AI database search platform that reduces recruiter turnaround time by 60%."
-      },
-      {
-        "title": "Executive to Entry Levels",
-        "description": "One-stop recruitment solution ranging from enterprise program directors to developer trainees."
-      }
-    ],
-    "hiringApproach": [
-      {
-        "step": "01",
-        "title": "Profile Sourcing & Scoring",
-        "badge": "Review",
-        "description": "Shortlist sourced profiles based on strict client criteria. Our recruiters score applicants based on certifications, experience, and past project delivery.",
-        "details": [
-          "Recruiter scoring checklist",
-          "Verification of active Salesforce credentials",
-          "Initial availability alignment"
-        ]
-      },
-      {
-        "step": "02",
-        "title": "Initial Screen Interview",
-        "badge": "Screen",
-        "description": "Conduct deep screening calls to verify basic qualifications, remote setup capability, communication skills, and professional availability.",
-        "details": [
-          "Interactive voice calls",
-          "Core competence validation",
-          "Culture fit assessment"
-        ]
-      },
-      {
-        "step": "03",
-        "title": "Standard Skill Testing",
-        "badge": "Test",
-        "description": "Administer structured, timed tests evaluating language speaking capabilities and core software programming skills.",
-        "details": [
-          "Coding sandbox exercises",
-          "English language proficiency",
-          "Problem-solving speed tests"
-        ]
-      },
-      {
-        "step": "04",
-        "title": "Technical Vetting Panel",
-        "badge": "Verify",
-        "description": "F2F or video panel technical interview where our in-house senior Salesforce architects and technology leaders review domain expertise.",
-        "details": [
-          "Architecture whiteboarding",
-          "Scenario-based problem solving",
-          "Domain-specific depth test (e.g. OmniStudio/LWC)"
-        ]
-      },
-      {
-        "step": "05",
-        "title": "Client Review & Align",
-        "badge": "Select",
-        "description": "Share fully vetted profiles, screen results, and technical scores with the client. Coordinate client video interviews for final alignment.",
-        "details": [
-          "Consolidated scoring profiles",
-          "Seamless scheduling management",
-          "Pre-meeting briefing for candidates"
-        ]
-      },
-      {
-        "step": "06",
-        "title": "Background Verification",
-        "badge": "Deploy",
-        "description": "Perform background verification of references, past employment, and credentials in partnership with specialized 3rd-party vendors.",
-        "details": [
-          "Employment history verification",
-          "Criminal and credential checks",
-          "Expedited onboarding processing"
-        ]
-      }
-    ]
-  },
+  "platformNodes": [
+    { "id": "data", "x": 50, "y": 50, "label": "Salesforce Data Cloud", "description": "Unify all your customer profiles, ERP records, and real-time telemetry into a single, cohesive source of truth." },
+    { "id": "ai", "x": 50, "y": 15, "label": "Agentforce AI", "description": "Deploy autonomous AI agents that converse, trigger workflows, and handle customer queries inside your CRM." },
+    { "id": "analytics", "x": 85, "y": 50, "label": "Tableau & Einstein Analytics", "description": "Transform operational data into actionable dashboards and AI-driven predictive insights." },
+    { "id": "crm", "x": 15, "y": 50, "label": "Salesforce Customer 360", "description": "Power your front office with optimized Sales, Service, Marketing, and Commerce Clouds." },
+    { "id": "integration", "x": 50, "y": 85, "label": "MuleSoft Integration", "description": "Connect legacy systems, APIs, and databases with secure, high-speed bi-directional queues." }
+  ],
   "implementationLifecycle": {
     "title": "Implementation & Delivery Roadmaps",
     "subtitle": "Discover our proven, structured methodologies that guarantee quality, compliance, and rapid time-to-market for enterprise platforms.",

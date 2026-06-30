@@ -15,17 +15,29 @@ export interface NavLink {
 
 export const navLinks: NavLink[] = [
   {
+    label: 'Salesforce Solutions',
+    href: '/solutions',
+    children: [
+      { label: 'Sales Cloud', href: '/solutions/sales-cloud' },
+      { label: 'Service Cloud', href: '/solutions/service-cloud' },
+      { label: 'Marketing Cloud & Pardot', href: '/solutions/marketing-cloud' },
+      { label: 'Commerce Cloud', href: '/solutions/commerce-cloud' },
+      { label: 'Experience Cloud', href: '/solutions/experience-cloud' },
+      { label: 'Data Cloud', href: '/solutions/data-cloud' },
+      { label: 'Analytics & Tableau', href: '/solutions/analytics-cloud' },
+      { label: 'MuleSoft Integration', href: '/services/integration' },
+      { label: 'Agentforce AI Agents', href: '/solutions/agentforce' },
+    ],
+  },
+  {
     label: 'Services',
     href: '/services',
     children: [
-      { label: 'Salesforce Consulting', href: '/services/salesforce-consulting' },
-      { label: 'Implementation', href: '/services/implementation' },
-      { label: 'Cloud Expertise', href: '/services/cloud-expertise' },
-      { label: 'Managed Services', href: '/services/managed-services' },
-      { label: 'Integration & Data', href: '/services/integration-data' },
-      { label: 'Enterprise Apps', href: '/services/enterprise-apps' },
-      { label: 'Mobile Apps', href: '/services/mobile-apps' },
-      { label: 'Staff Augmentation', href: '/services/staff-augmentation' },
+      { label: 'Salesforce Consulting', href: '/services#salesforce-consulting' },
+      { label: 'Implementation & Development', href: '/services#implementation' },
+      { label: 'Managed Services & Support', href: '/services#managed-services' },
+      { label: 'Integration & Data Services', href: '/services#integration' },
+      { label: 'Staff Augmentation', href: '/services#staff-augmentation' },
     ],
   },
   {
@@ -35,35 +47,18 @@ export const navLinks: NavLink[] = [
       { label: 'Financial Services', href: '/industries/financial-services' },
       { label: 'Retail & Commerce', href: '/industries/retail-commerce' },
       { label: 'Government', href: '/industries/government' },
-      { label: 'Communications', href: '/industries/communications' },
-      { label: 'Healthcare', href: '/industries/healthcare' },
-      { label: 'Manufacturing', href: '/industries/manufacturing' },
+      { label: 'Communications & Vlocity', href: '/vlocity' },
+      { label: 'Healthcare & Life Sciences', href: '/industries/healthcare' },
+      { label: 'Manufacturing & Energy', href: '/industries/manufacturing' },
     ],
-  },
-  {
-    label: 'Solutions',
-    href: '/solutions',
-    children: [
-      { label: 'Sales Cloud', href: '/solutions/sales-cloud' },
-      { label: 'Service Cloud', href: '/solutions/service-cloud' },
-      { label: 'Marketing Cloud', href: '/solutions/marketing-cloud' },
-      { label: 'Experience Cloud', href: '/solutions/experience-cloud' },
-      { label: 'Analytics Cloud', href: '/solutions/analytics-cloud' },
-      { label: 'CPQ', href: '/solutions/cpq' },
-      { label: 'Industries', href: '/solutions/industries' },
-    ],
-  },
-  {
-    label: 'Case Studies',
-    href: '/case-studies',
   },
   {
     label: 'About',
     href: '/about',
   },
   {
-    label: 'Insights',
-    href: '/insights',
+    label: 'Careers',
+    href: '/careers',
   },
   {
     label: 'Contact',

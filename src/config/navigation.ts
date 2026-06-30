@@ -5,8 +5,7 @@ export interface NavLink {
 
 export const mainNavLinks: NavLink[] = [
   { label: 'Solutions', href: '/solutions' },
-  { label: 'Salesforce', href: '/salesforce' },
-  { label: 'Vlocity', href: '/vlocity' },
+  { label: 'Salesforce Expertise', href: '/salesforce' },
   { label: 'Services', href: '/services' },
   { label: 'Industries', href: '/industries' },
   { label: 'Careers', href: '/careers' },

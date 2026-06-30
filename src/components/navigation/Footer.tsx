@@ -49,7 +49,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="section-dark relative overflow-hidden">
+    <footer className="relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #0B1D3A 0%, #071633 100%)' }}>
       {/* Gradient top border */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary-500 to-transparent" />
 
